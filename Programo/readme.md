@@ -1,7 +1,7 @@
 # Programo
 
 <!-- TABLE OF CONTENTS -->
-## Table of Contents
+## Tabla de contenido
 
 * [Acerca de la actividad](#acerca-de-la-actividad)
   * [Ejecutar con](#ejecutar-con)
