@@ -6,28 +6,24 @@
 
 ## Endpoints.
 
-- /autores GET: Devuelve todos los autores dentro del array.
-- /autores POST: Permite crear un autor y añadirlo al array. Dentro del body enviar:
-  .._ nombre
-  .._ apellido
-  ..\_ fechaNacimiento
+### /autores
 
-- /autores/:id GET: Devuelve el autor con el ID indicado.
-- /autores/:id DELETE: Elimina el autor con el ID indicado.
-- /autores/:id PUT: Modifica el autor con el ID indicado. Dentro del body se puede enviar:
-  .._ nombre
-  .._ apellido
-  ..\_ fechaNacimiento
+- GET: Devuelve todos los autores dentro del array.
+- POST: Permite crear un autor y añadirlo al array. Dentro del body enviar: nombre, apellido, fechaNacimiento; todos de tipo String.
 
-- /autores/:id/libros GET: Devuelve todos los libros de un autor.
-- /autores/:id/libros POST: Agrega un nuevo libro al autor. Dentro del body enviar:
-  .._ titulo
-  .._ descripcion
-  ..\_ anioPublicacion
+### /autores/:id
 
-- /autores/:id/libros/:idLibro GET: Devuelve el libro con el id indicado del autor.
-- /autores/:id/libros/:idLibro DELETE: Elimina el libro con el id indicado del autor.
-- /autores/:id/libros/:idLibro PUT: Modifica el libro con el id indicado del autor. Dentro del body se pueden enviar:
-  .._ titulo
-  .._ descripcion
-  ..\_ anioPublicacion
+- GET: Devuelve el autor con el ID indicado.
+- DELETE: Elimina el autor con el ID indicado.
+- PUT: Modifica el autor con el ID indicado. Dentro del body se puede enviar: nombre, apellido, fechaNacimiento; todos de tipo String y cada uno es opcional.
+
+### /autores/:id/libros
+
+- GET: Devuelve todos los libros de un autor.
+- POST: Agrega un nuevo libro al autor. Dentro del body enviar: titulo, descripcion, anioPublicacion; todos de tipo String.
+
+### /autores/:id/libros/:idLibro
+
+- GET: Devuelve el libro con el id indicado del autor.
+- DELETE: Elimina el libro con el id indicado del autor.
+- PUT: Modifica el libro con el id indicado del autor. Dentro del body se pueden enviar: titulo, descripcion, anioPublicacion; todos de tipo String.
