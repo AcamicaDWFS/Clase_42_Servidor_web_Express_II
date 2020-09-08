@@ -1,0 +1,15 @@
+{
+  "name": "programo",
+  "version": "1.0.0",
+  "description": "ejercicio programo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Omar Guzman",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.17.1",
+    "body-parser": "1.19.0"
+  }
+}
