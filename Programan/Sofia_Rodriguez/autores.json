@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "nombre": "Jorge Luis",
+        "apellido": "Borges",
+        "fechaDeNacimiento": "24/08/1899"
+    },
+
+
+    {
+        "id": 2,
+        "nombre": "Julio",
+        "apellido": "Cortázar",
+        "fechaDeNacimiento": "26/08/1914",
+        "libros": []
+    },
+
+
+    {
+        "id": 3,
+        "nombre": "Gabriel",
+        "apellido": "García Márquez",
+        "fechaDeNacimiento": "06/03/1927",
+        "libros": []
+    }
+]
